@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" type="text/css" href="css/style_motos.css">
+    <title>Registro Motos</title>
+</head>
+<body>
+    <div id="recuadro">
+        <div id="form">
+            <form type="POST">
+                <h1>Registro Motos</h1>
+                <p>
+                    <label for="nombre">Ingrese su nombre completo</label> <br>
+                    <input type="text" name="nombre" id="name" placeholder="Nombres y Apellidos" required>
+                </p>
+                <p>
+                    <label for="cedula">Ingrese su cédula</label> <br>
+                    <input type="number" name="cedula" id="ced" placeholder="Número de Cédula" required>
+                </p>
+                <p>
+                    <label for="cilindraje">Digite el cilindraje</label> <br>
+                    <input type="text" name="cilindraje" id="cid" placeholder="Cilindraje Moto" required>
+                </p>
+                <p>
+                    <label for="tiempos">Digite los tiempos</label> <br>
+                    <input type="text" name="tiempos" id="time" placeholder="Tiempos Moto" required>
+                </p>
+                <p>
+                    <label for="placa">Digite el número de su placa</label> <br>
+                    <input type="text" name="placa" id="pla" placeholder="Númer de Placa" required>
+                </p>
+                <p>
+                    <label for="img">Adjunta la imagen de tu moto</label> <br>
+                    <input type="file" name="img" id="imagen" required>
+                </p>
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+            </form>
+            <hr>
+            <a href="/index.html"><button>Regresar</button></a>
+        </div>
+    </div>
+</body>
+</html>

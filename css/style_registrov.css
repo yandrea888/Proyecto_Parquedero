@@ -1,0 +1,49 @@
+body
+{
+    text-align: center;
+    background-image: url(../image/parqueadero.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#cuadrado
+{
+    width: 360px;
+    padding: 70px;
+    margin: auto; 
+}
+
+#ingreso
+{
+    background: #ffffffe0;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.705), 0 5px 5px 0 rgba(0, 0, 0, 0.377);
+}
+
+button
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    background:rgba(90, 168, 233, 0.562);
+    transition: 300ms all;
+}
+
+#regresar
+{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    background:rgba(90, 168, 233, 0.562);
+    transition: 300ms all;
+}

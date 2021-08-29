@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style_ingreso.css">
+    <title>Registrar Ingreso</title>
+</head>
+<body>
+    <div id="box">
+        <div id="form">
+        <h1>¡Bienvenido!</h1>
+        <h2>Por favor registra el ingreso de vehículos aquí</h2>
+            <form>
+                <div class="box dashed">
+                    <p>
+                        <label for="cedula">Cédula de Ciudadania</label> <br>
+                        <input type="number" name="cedula" id="ced" placeholder="Ingresa Cédula" required>
+                    </p>
+                    <p>
+                        <label for="fecha">Fecha de ingreso</label> <br>
+                        <input type="date" name="fecha" id="fecha" required>
+                    </p>
+                    <p>
+                        <label for="hora">Hora de ingreso</label> <br>
+                        <input type="time" name="hora" id="hora" required>
+                    </p>
+                    <p>
+                        <label for="celda">Número de celda</label> <br>
+                        <input type="text" name="celda" id="celda" placeholder="Ingresa la celda" required>
+                    </p>
+                    <button type="reset" class="general">Borrar</button>
+                    <button type="submit" class="general2">Enviar</button>
+                </div> 
+            </form>
+            <form>
+                <div class="mostrar">
+                    <p>
+                        <label for="placa">Ingresa la placa del vehículo</label> <br>
+                        <input type="text" name="pla" id="pla" placeholder="Ingresa Placa" required>
+                    </p>
+                    <p>
+                        <label for="fecha">Fecha de ingreso</label> <br>
+                        <input type="date" name="fecha" id="fecha" required>
+                    </p>
+                    <p>
+                        <label for="hora">Hora de ingreso</label> <br>
+                        <input type="time" name="hora" id="hora" required>
+                    </p>
+                    <p>
+                        <label for="celda">Número de celda</label> <br>
+                        <input type="text" name="celda" id="celda" placeholder="Ingresa la celda" required>
+                    </p>
+                    <button type="reset" class="general">Borrar</button>
+                    <button type="submit" class="general2">Enviar</button>
+                </div>
+            </form>
+            <hr>
+            <a href="/index.html" class="general3"><button>Regresar</button></a>
+            <form action="#" method="POST" id="formulario" onsubmit="return false;">
+                <hr>
+               <p>
+                    <label for="placa">Si desea registar por medio de la placa del vehículo	por favor da click aquí:</label> 
+                    <button id="placa" name="placa">Placa del vehículo</button> <br>
+               </p>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="Js/Registrar_Ingreso.js"></script>
+</body>
+</html>
